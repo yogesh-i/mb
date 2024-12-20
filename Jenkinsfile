@@ -8,7 +8,6 @@ customWorkspace "/var/www/html"
 stages {
 stage ("one") {
 steps { 
-sh "rm -rf /var/www/html"
 sh "sudo yum install httpd -y"
 }
 }
