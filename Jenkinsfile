@@ -20,3 +20,5 @@ sh "sudo chkconfig httpd on"
 }
 }
 }
+//set github credentials
+//change owner of /var/www/html to ec2-user
